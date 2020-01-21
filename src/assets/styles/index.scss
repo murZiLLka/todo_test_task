@@ -1,0 +1,186 @@
+@import '../../../node_modules/react-redux-toastr/src/styles/index';
+
+a[disabled], [disabled] {
+  pointer-events: none;
+}
+
+h1 {
+  color: #17a2b8;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.App {
+  padding: 1.5rem;
+}
+
+.itemList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.todoItem {
+  width: 800px;
+  padding: 0.3rem;
+  margin: 0.5rem 0;
+  border: 3px solid #17a2b8;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.todoItem_done {
+    border: 3px solid #0eb800;
+  }
+
+  .todoItem__edit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .todoItem__btn {
+    margin-left: 1.5rem;
+
+    &[disabled] {
+      background-color: rgba(51, 51, 51, 0.16);
+    }
+  }
+
+  .todoItem__check {
+    margin-top: -0.8rem;
+    margin-right: 1.5rem;
+  }
+
+  .todoItem__title {
+    width: 400px;
+    outline: hidden;
+  }
+
+
+}
+
+.addItem__wrapper {
+  position: fixed;
+  height: 110px;
+  background-color: #fff;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .addItem {
+    width: 700px;
+    height: 65px;
+    padding: 0.3rem;
+    border: 3px solid #17a2b8;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .addItem__title {
+    width: 500px;
+    height: 45px;
+    outline: hidden;
+    margin-right: 1.5rem;
+  }
+
+
+}
+
+.itemPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  & > div {
+    width: 700px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    margin: 0.5rem 0;
+    border: 3px solid #17a2b8;
+    border-radius: 1.5rem;
+  }
+
+  .itemPage__description {
+    min-height: 40vh;
+  }
+
+
+  .itemPage__btn {
+    width: 300px;
+    margin-top: 1.5rem;
+  }
+
+}
+
+
+.editItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .editItem__title, .editItem__description {
+    width: 700px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    margin: 0.5rem 0;
+    border: 3px solid #17a2b8;
+    border-radius: 1.5rem;
+  }
+
+
+  .editItem__description {
+    min-height: 40vh;
+    overflow-x: hidden;
+  }
+
+
+  .editItem__btn {
+    width: 300px;
+    margin-top: 1.5rem;
+  }
+
+}
+
+.notFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .notFound__text {
+    color: #17a2b8;
+    font-size: 15rem;
+  }
+
+  .notFound__btn {
+    width: 300px;
+    margin-top: 3rem;
+  }
+}
+
+.errorAlert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .errorAlert__text {
+    width: 700px;
+    text-align: center;
+  }
+
+  .errorAlert__btn {
+    margin-top: 1.5rem;
+    width: 350px;
+  }
+
+
+}

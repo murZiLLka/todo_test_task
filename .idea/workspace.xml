@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59c0ccb0-3f49-4022-b631-5e08d94d263a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/styles/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/AppContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="59c0ccb0-3f49-4022-b631-5e08d94d263a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/styles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,11 +42,15 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Projects\todo_test_task\src\containers" />
+      <recent name="G:\Projects\todo_test_task\src\components" />
+      <recent name="G:\Projects\todo_test_task\src\components\UI" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Projects\todo_test_task\src\assets\styles" />
+      <recent name="G:\Projects\todo_test_task\src\components" />
+      <recent name="G:\Projects\todo_test_task\src\containers" />
+      <recent name="G:\Projects\todo_test_task\src\assets\img" />
       <recent name="G:\Projects\todo_test_task\src\utils" />
-      <recent name="G:\Projects\todo_test_task\src" />
+      <recent name="G:\Projects\todo_test_task\src\assets\styles" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -104,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579523195566</updated>
-      <workItem from="1579523196998" duration="1294000" />
+      <workItem from="1579523196998" duration="56368000" />
     </task>
     <servers />
   </component>
@@ -112,17 +98,45 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2370" y="218" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579524410529">
+    <state x="2413" y="274" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579604046325">
       <screen x="1920" y="40" width="1440" height="860" />
     </state>
-    <state x="2370" y="218" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.46.1920.1034/1920.40.1440.860@1920.40.1440.860" timestamp="1579524410529" />
+    <state x="2413" y="274" key="#com.intellij.fileTypes.FileTypeChooser/0.46.1920.1034/1920.40.1440.860@1920.40.1440.860" timestamp="1579604046325" />
+    <state x="2370" y="218" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579557573129">
+      <screen x="1920" y="40" width="1440" height="860" />
+    </state>
+    <state x="2370" y="218" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.46.1920.1034/1920.40.1440.860@1920.40.1440.860" timestamp="1579557573129" />
     <state x="2274" y="249" key="EditFileWatcherDialog" timestamp="1579523379285">
       <screen x="1920" y="40" width="1440" height="860" />
     </state>
     <state x="2274" y="249" key="EditFileWatcherDialog/0.46.1920.1034/1920.40.1440.860@1920.40.1440.860" timestamp="1579523379285" />
-    <state x="2296" y="215" key="run.anything.popup" timestamp="1579524015999">
+    <state width="1419" height="222" key="GridCell.Tab.0.bottom" timestamp="1579612432236">
       <screen x="1920" y="40" width="1440" height="860" />
     </state>
-    <state x="2296" y="215" key="run.anything.popup/0.46.1920.1034/1920.40.1440.860@1920.40.1440.860" timestamp="1579524015999" />
+    <state width="1419" height="222" key="GridCell.Tab.0.bottom/0.46.1920.1034/1920.40.1440.860@1920.40.1440.860" timestamp="1579612432236" />
+    <state width="1419" height="222" key="GridCell.Tab.0.center" timestamp="1579612432236">
+      <screen x="1920" y="40" width="1440" height="860" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.center/0.46.1920.1034/1920.40.1440.860@1920.40.1440.860" timestamp="1579612432236" />
+    <state width="1419" height="222" key="GridCell.Tab.0.left" timestamp="1579612432236">
+      <screen x="1920" y="40" width="1440" height="860" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.left/0.46.1920.1034/1920.40.1440.860@1920.40.1440.860" timestamp="1579612432236" />
+    <state width="1419" height="222" key="GridCell.Tab.0.right" timestamp="1579612432236">
+      <screen x="1920" y="40" width="1440" height="860" />
+    </state>
+    <state width="1419" height="222" key="GridCell.Tab.0.right/0.46.1920.1034/1920.40.1440.860@1920.40.1440.860" timestamp="1579612432236" />
+    <state x="2541" y="356" width="607" height="536" key="find.popup" timestamp="1579604796293">
+      <screen x="1920" y="40" width="1440" height="860" />
+    </state>
+    <state x="2541" y="356" width="607" height="536" key="find.popup/0.46.1920.1034/1920.40.1440.860@1920.40.1440.860" timestamp="1579604796293" />
+    <state x="2296" y="215" key="run.anything.popup" timestamp="1579605463400">
+      <screen x="1920" y="40" width="1440" height="860" />
+    </state>
+    <state x="2296" y="215" key="run.anything.popup/0.46.1920.1034/1920.40.1440.860@1920.40.1440.860" timestamp="1579605463400" />
+    <state x="2303" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1579566659627">
+      <screen x="1920" y="40" width="1440" height="860" />
+    </state>
+    <state x="2303" y="220" width="672" height="678" key="search.everywhere.popup/0.46.1920.1034/1920.40.1440.860@1920.40.1440.860" timestamp="1579566659627" />
   </component>
 </project>
